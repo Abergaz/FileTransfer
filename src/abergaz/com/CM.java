@@ -25,27 +25,43 @@ public class CM {
     public void process() {
         AbsToSbrf();
         SbrfToAbs();
-        copySbrfToAbsAck();
+        SbrfToAbsAck();
     }
 
+    /**
+     * Исходящие из ВЭБ сообщения формируются в каталоге sbrf_in
+     * копируем сообщения в каталог текущей даты в sbrf_in.arch
+     * переносим сообщения из sbrf_in в ABS.SBRF.CM.SWIFT.F
+     */
     private void AbsToSbrf() {
-        //копируем из sbrf_In в sbrf_In.Arch\дата и переносим в ABS.SBRF.SM.SWIFT.F
         File sbrfIn = new File(settings.getSbrfIn());
         File sbrfInArch = new File(settings.getSbrfInArch());
         File absSbrfCmSwiftF = new File(settings.getAbsSbrfCmSwiftF());
-        fileTransfer(sbrfIn,sbrfInArch,absSbrfCmSwiftF);
+        fileTransfer(sbrfIn, sbrfInArch, absSbrfCmSwiftF);
     }
 
+    /**
+     * Входящие в ВЭБ сообщения формируются в каталоге SBRF.ABS.CM.SWFIT.F
+     * копируем сообщения в каталог текущей даты в sbrf_out.arch
+     * переносим сообщения из SBRF.ABS.CM.SWFIT.F в sbrf_out
+     */
     private void SbrfToAbs() {
-        //копируем из SBRF.ABS.CM.SWFIT.F в sbrf_Out.Arch\дата и переносим в sbrf_Out
         File sbrfAbsCmSwiftF = new File(settings.getSbrfAbsCmSwiftF());
         File sbrfOutArch = new File(settings.getSbrfOutArch());
         File sbrfOut = new File(settings.getSbrfOut());
-        fileTransfer(sbrfAbsCmSwiftF,sbrfOutArch,sbrfOut);
+        fileTransfer(sbrfAbsCmSwiftF, sbrfOutArch, sbrfOut);
     }
 
-    private void copySbrfToAbsAck() {
-
+    /**
+     * Входящие в ВЭБ Ack/Nack формируются в каталоге SBRF.ABS.CM.SWFIT.AKC.F
+     * копируем сообщения в каталог текущей даты в sbrf_out.arch
+     * переносим сообщения из SBRF.ABS.CM.SWFIT.ACK.F в sbrf_out
+     */
+    private void SbrfToAbsAck() {
+        File sbrfAbsCmSwiftAckF = new File(settings.getSbrfAbsCmSwiftAckF());
+        File sbrfOutArch = new File(settings.getSbrfOutArch());
+        File sbrfOut = new File(settings.getSbrfOut());
+        fileTransfer(sbrfAbsCmSwiftAckF, sbrfOutArch, sbrfOut);
     }
 
     private void fileTransfer(File sourceFolder, File copyFolder, File moveFolder) {
@@ -67,6 +83,9 @@ public class CM {
         }
     }
 
+    /**
+     * Копирует файл в подакталог с текущей датой в указанный каталог
+     */
     private void copyFileToArc(File file, File to) {
         File destinationFolder = new File(to.toPath().resolve(getCurDate()).toString());
         if (!destinationFolder.exists()) {
@@ -75,6 +94,9 @@ public class CM {
         copyFile(file, destinationFolder);
     }
 
+    /**
+     * Копирует файл в указанный каталог
+     */
     private void copyFile(File sourceFile, File to) {
         if (sourceFile.getName().endsWith(".txt")) {
             System.out.println("Copy file : " + sourceFile.getPath() + " to : " + to.getPath());
@@ -88,6 +110,9 @@ public class CM {
 
     }
 
+    /**
+     * Перемещает файл в указанный каталог
+     */
     private void moveFile(File sourceFile, File to) {
         if (sourceFile.getName().endsWith(".txt")) {
             System.out.println("Move file : " + sourceFile.getPath() + " to : " + to.getPath());
@@ -100,6 +125,9 @@ public class CM {
         }
     }
 
+    /**
+     * Возвразает строку с текщей дытой вида ггггммдд
+     */
     private String getCurDate() {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMdd");
         Date date = new Date();

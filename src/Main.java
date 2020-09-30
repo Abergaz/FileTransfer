@@ -16,13 +16,14 @@ public class Main {
                 settings.init(args[0]);
                 while (true){
                     //проверка на завершение работы, если есть файл stop
-                    CM cm = CM.getInstance();
-                    cm.process();
                     if (settings.getFileStop().exists()){
                         System.out.println("End FileTransfer");
                         Files.delete(settings.getFileStop().toPath());
                         System.exit(0);
                     }
+                    CM cm = CM.getInstance();
+                    cm.process();
+                    Thread.sleep(1000);
                 }
             }
         } catch (Exception exception) {
