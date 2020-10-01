@@ -63,40 +63,36 @@ public class Settings {
         try {
             properties.load(new FileReader(fileSettings));
         } catch (IOException e) {
-            logger.error("Не удалось прочитать файл настроек:");
-            logger.error(e.getMessage());
-            Start.end();
+            Start.end(e, "Не удалось прочитать файл настроек:");
         }
         //получаем значения свойств из объекта Properties
-        readProperty(properties,"sbrf_in");
-        readProperty(properties,"sbrf_in.arch");
-        readProperty(properties,"sbrf_out");
-        readProperty(properties,"sbrf_out.arch");
-        readProperty(properties,"ABS.SBRF.CM.SWIFT.F");
-        readProperty(properties,"SBRF.ABS.CM.SWFIT.F");
-        readProperty(properties,"SBRF.ABS.CM.SWFIT.ACK.F");
-     }
+        readProperty(properties, "sbrf_in");
+        readProperty(properties, "sbrf_in.arch");
+        readProperty(properties, "sbrf_out");
+        readProperty(properties, "sbrf_out.arch");
+        readProperty(properties, "ABS.SBRF.CM.SWIFT.F");
+        readProperty(properties, "SBRF.ABS.CM.SWFIT.F");
+        readProperty(properties, "SBRF.ABS.CM.SWFIT.ACK.F");
+    }
 
-    private void readProperty(Properties properties,String property){
+    private void readProperty(Properties properties, String property) {
         String value = properties.getProperty(property);
         if (value != null) {
             value = value.trim().replaceAll("\\s+", "");
             if (!value.equals("")) {
                 logger.info(property + " = " + value);
-                if (property.equals("sbrf_in")) sbrfIn=value;
-                if (property.equals("sbrf_in.arch")) sbrfInArch=value;
-                if (property.equals("sbrf_out")) sbrfOut=value;
-                if (property.equals("sbrf_out.arch")) sbrfOutArch=value;
-                if (property.equals("ABS.SBRF.CM.SWIFT.F")) absSbrfCmSwiftF=value;
-                if (property.equals("SBRF.ABS.CM.SWFIT.F")) sbrfAbsCmSwiftF=value;
-                if (property.equals("SBRF.ABS.CM.SWFIT.ACK.F")) sbrfAbsCmSwiftAckF=value;
+                if (property.equals("sbrf_in")) sbrfIn = value;
+                if (property.equals("sbrf_in.arch")) sbrfInArch = value;
+                if (property.equals("sbrf_out")) sbrfOut = value;
+                if (property.equals("sbrf_out.arch")) sbrfOutArch = value;
+                if (property.equals("ABS.SBRF.CM.SWIFT.F")) absSbrfCmSwiftF = value;
+                if (property.equals("SBRF.ABS.CM.SWFIT.F")) sbrfAbsCmSwiftF = value;
+                if (property.equals("SBRF.ABS.CM.SWFIT.ACK.F")) sbrfAbsCmSwiftAckF = value;
             } else {
-                logger.warn("В файле настроек не заполнена настройка: " +property);
-                Start.end();
+                Start.end("В файле настроек не заполнена настройка: " + property);
             }
         } else {
-            logger.info("В файле настроек нет настройки: " + property);
-            Start.end();
+            Start.end("В файле настроек нет настройки: " + property);
         }
     }
 

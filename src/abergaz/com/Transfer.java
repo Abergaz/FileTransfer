@@ -10,15 +10,15 @@ import java.nio.file.StandardCopyOption;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class CM {
-    private static CM instance;
-    private static final Logger logger = LoggerFactory.getLogger(CM.class.getName());
+public class Transfer {
+    private static Transfer instance;
+    private static final Logger logger = LoggerFactory.getLogger(Transfer.class.getName());
 
-    private CM() {}
+    private Transfer() {}
 
-    public static CM getInstance() {
+    public static Transfer getInstance() {
         if (instance == null) {
-            instance = new CM();
+            instance = new Transfer();
         }
         return instance;
     }
@@ -105,7 +105,7 @@ public class CM {
                 Files.copy(sourceFile.toPath(), to.toPath().resolve(sourceFile.getName()), StandardCopyOption.REPLACE_EXISTING);
             } catch (IOException e) {
                 logger.error("Copy error file : " + sourceFile.getPath() + " to : " + to.getPath());
-                logger.error(e.getMessage());
+                logger.error(ErrorUtil.getStackTrace(e));
             }
         }
 
@@ -121,7 +121,7 @@ public class CM {
                 Files.move(sourceFile.toPath(), to.toPath().resolve(sourceFile.getName()), StandardCopyOption.REPLACE_EXISTING);
             } catch (IOException e) {
                 logger.error("Move error file : " + sourceFile.getPath() + " to : " + to.getPath());
-                logger.error(e.getMessage());
+                logger.error(ErrorUtil.getStackTrace(e));
             }
         }
     }

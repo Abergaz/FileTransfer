@@ -8,8 +8,7 @@ public class Main {
         try {
             Start.start(args);
         }catch (Exception e){
-            logger.error(e.getMessage());
-            Start.end();
+            Start.end(e);
         }
     }
 }
