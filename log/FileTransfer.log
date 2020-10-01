@@ -1,0 +1,380 @@
+01.10.2020 09:14:40.070 [main] DEBUG Main - debug
+01.10.2020 09:14:40.073 [main] INFO  Main - info
+01.10.2020 09:14:40.074 [main] WARN  Main - warn
+01.10.2020 09:14:40.074 [main] ERROR Main - error
+01.10.2020 09:14:40.074 [main] DEBUG Main - In bar my name is name aaaa.
+01.10.2020 09:14:40.074 [main] INFO  Main - Start FileTransfer
+01.10.2020 09:14:40.076 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 09:14:40.078 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 09:14:40.079 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 09:14:40.079 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 09:14:40.079 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 09:14:40.080 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 09:14:40.080 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 09:14:40.080 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 09:14:40.080 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 09:34:57.378 [main] DEBUG Main - debug
+01.10.2020 09:34:57.381 [main] INFO  Main - info
+01.10.2020 09:34:57.382 [main] WARN  Main - warn
+01.10.2020 09:34:57.382 [main] ERROR Main - error
+01.10.2020 09:34:57.382 [main] DEBUG Main - In bar my name is name aaaa.
+01.10.2020 09:34:57.382 [main] INFO  Main - Start FileTransfer
+01.10.2020 09:34:57.383 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 09:34:57.386 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 09:34:57.387 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 09:34:57.387 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 09:34:57.387 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 09:34:57.387 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 09:34:57.387 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 09:34:57.387 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 09:34:57.388 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 09:37:42.615 [main] DEBUG Main - debug
+01.10.2020 09:37:42.619 [main] INFO  Main - info
+01.10.2020 09:37:42.620 [main] WARN  Main - warn
+01.10.2020 09:37:42.620 [main] ERROR Main - error
+01.10.2020 09:37:42.621 [main] DEBUG Main - In bar my name is name aaaa.
+01.10.2020 09:37:42.621 [main] INFO  Main - Start FileTransfer
+01.10.2020 09:37:42.623 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 09:37:42.626 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 09:37:42.633 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 09:37:42.634 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 09:37:42.634 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 09:37:42.634 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 09:37:42.634 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 09:37:42.635 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 09:37:42.635 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 11:03:38.190 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 11:03:38.195 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 11:03:38.197 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 11:03:38.200 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 11:03:38.202 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 11:03:38.203 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 11:03:38.203 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 11:03:38.203 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 11:03:38.203 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 11:03:38.204 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 11:03:38.204 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 11:03:38.204 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 11:04:02.489 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 11:04:02.489 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 11:04:02.489 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 11:04:02.489 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 11:04:02.489 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 11:04:02.489 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 11:04:02.489 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 11:04:02.489 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 11:04:02.489 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 11:04:02.489 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 11:04:02.489 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 11:04:02.504 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 11:10:48.051 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 11:10:48.054 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 11:10:48.070 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 11:10:48.073 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 11:10:48.074 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 11:10:48.074 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 11:10:48.075 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 11:10:48.075 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 11:10:48.075 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 11:10:48.075 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 11:10:48.075 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 11:10:48.075 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 11:30:25.761 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 11:30:25.766 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 11:30:25.768 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 11:30:25.772 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 11:30:25.774 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 11:30:25.774 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 11:30:25.775 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 11:30:25.775 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 11:30:25.785 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 11:30:25.785 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 11:30:25.785 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 11:30:25.785 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 11:49:45.706 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 11:49:45.715 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 11:49:45.715 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 11:49:45.715 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 11:49:45.715 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 11:49:45.715 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 11:49:45.715 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 11:49:45.715 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 11:49:45.715 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 11:49:45.715 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 11:49:45.715 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 11:49:45.715 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 11:51:32.597 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 11:51:32.600 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 11:51:32.602 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 11:51:32.604 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 11:51:32.606 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 11:51:32.606 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 11:51:32.606 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 11:51:32.606 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 11:51:32.616 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 11:51:32.616 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 11:51:32.616 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 11:51:32.616 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 11:51:32.618 [main] ERROR abergaz.com.Start - null
+01.10.2020 11:51:32.618 [main] INFO  abergaz.com.Start - End FileTransfer
+01.10.2020 11:52:52.948 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 11:52:52.951 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 11:52:52.952 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 11:52:52.954 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 11:52:52.955 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 11:52:52.955 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 11:52:52.955 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 11:52:52.955 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 11:52:52.956 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 11:52:52.956 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 11:52:52.956 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 11:52:52.956 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 11:52:52.958 [main] ERROR abergaz.com.Start - java.lang.NullPointerException
+01.10.2020 11:52:52.958 [main] INFO  abergaz.com.Start - End FileTransfer
+01.10.2020 11:53:45.119 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 11:53:45.122 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 11:53:45.124 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 11:53:45.127 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 11:53:45.128 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 11:53:45.128 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 11:53:45.128 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 11:53:45.128 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 11:53:45.129 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 11:53:45.129 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 11:53:45.129 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 11:53:45.143 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 11:53:45.146 [main] ERROR abergaz.com.Start - [Ljava.lang.StackTraceElement;@64c64813
+01.10.2020 11:53:45.146 [main] INFO  abergaz.com.Start - End FileTransfer
+01.10.2020 11:54:26.754 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 11:54:26.757 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 11:54:26.759 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 11:54:26.761 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 11:54:26.762 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 11:54:26.762 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 11:54:26.762 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 11:54:26.762 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 11:54:26.763 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 11:54:26.772 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 11:54:26.773 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 11:54:26.773 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 11:54:26.779 [main] ERROR abergaz.com.Start - null
+01.10.2020 11:54:26.779 [main] INFO  abergaz.com.Start - End FileTransfer
+01.10.2020 11:57:23.241 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 11:57:23.245 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 11:57:23.247 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 11:57:23.249 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 11:57:23.250 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 11:57:23.251 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 11:57:23.251 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 11:57:23.251 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 11:57:23.251 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 11:57:23.260 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 11:57:23.261 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 11:57:23.261 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 11:57:23.263 [main] ERROR abergaz.com.Start - null
+01.10.2020 11:57:23.264 [main] INFO  abergaz.com.Start - End FileTransfer
+01.10.2020 13:16:15.979 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 13:16:15.984 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 13:16:15.991 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 13:16:15.994 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 13:16:15.996 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 13:16:15.996 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 13:16:15.996 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 13:16:15.996 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 13:16:15.996 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 13:16:16.006 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 13:16:16.007 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 13:16:16.007 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 14:48:26.570 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 14:48:26.577 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 14:48:26.577 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 14:48:26.579 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 14:48:26.579 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 14:48:26.579 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 14:48:26.579 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 14:48:26.579 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 14:48:26.579 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 14:48:26.579 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 14:48:26.579 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 14:48:26.579 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 14:48:59.338 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 14:48:59.341 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 14:48:59.347 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 14:48:59.349 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 14:48:59.350 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 14:48:59.350 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 14:48:59.351 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 14:48:59.351 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 14:48:59.351 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 14:48:59.360 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 14:48:59.361 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 14:48:59.361 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 14:49:22.028 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 14:49:22.031 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 14:49:22.037 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 14:49:22.040 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 14:49:22.041 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 14:49:22.041 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 14:49:22.041 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 14:49:22.041 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 14:49:22.041 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 14:49:22.051 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 14:49:22.051 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 14:49:22.051 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 14:51:31.605 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 14:51:31.605 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 14:51:31.621 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 14:51:31.621 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 14:51:31.621 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 14:51:31.621 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 14:51:31.621 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 14:51:31.621 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 14:51:31.621 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 14:51:31.636 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 14:51:31.636 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 14:51:31.636 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 14:57:16.959 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 14:57:16.962 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 14:57:16.975 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 14:57:16.977 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 14:57:16.985 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 14:57:16.986 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 14:57:16.986 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 14:57:16.986 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 14:57:16.986 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 14:57:16.987 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 14:57:16.987 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 14:57:16.987 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 15:01:46.458 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 15:01:46.462 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 15:01:46.464 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 15:01:46.467 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 15:01:46.468 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 15:01:46.468 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 15:01:46.468 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 15:01:46.468 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 15:01:46.469 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 15:01:46.478 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 15:01:46.478 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 15:01:46.478 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 15:28:25.046 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 15:28:25.050 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 15:28:25.071 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 15:28:25.074 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 15:28:25.075 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 15:28:25.075 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 15:28:25.075 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 15:28:25.076 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 15:28:25.076 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 15:28:25.076 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 15:28:25.076 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 15:28:25.076 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 15:32:11.466 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 15:32:11.469 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 15:32:11.471 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 15:32:11.473 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 15:32:11.474 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 15:32:11.474 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 15:32:11.474 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 15:32:11.474 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 15:32:11.474 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 15:32:11.475 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 15:32:11.475 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 15:32:11.475 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 15:38:17.968 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 15:38:17.971 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 15:38:17.976 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 15:38:17.979 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 15:38:17.980 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 15:38:17.981 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 15:38:17.981 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 15:38:17.981 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 15:38:17.981 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 15:38:17.982 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 15:38:17.982 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 15:38:17.982 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 15:39:48.390 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 15:39:48.394 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 15:39:48.395 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 15:39:48.398 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 15:39:48.406 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 15:39:48.406 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 15:39:48.406 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 15:39:48.406 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 15:39:48.406 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 15:39:48.407 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 15:39:48.407 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 15:39:48.407 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 15:39:48.410 [main] INFO  abergaz.com.Start - java.lang.NullPointerException
+	at java.io.File.<init>(File.java:277)
+	at abergaz.com.Transfer.SbrfToAbsAck(Transfer.java:62)
+	at abergaz.com.Transfer.process(Transfer.java:29)
+	at abergaz.com.Start.start(Start.java:22)
+	at Main.main(Main.java:9)
+
+01.10.2020 15:39:48.410 [main] INFO  abergaz.com.Start - End FileTransfer
+01.10.2020 15:47:21.123 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 15:47:21.126 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 15:47:21.131 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 15:47:21.134 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 15:47:21.135 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 15:47:21.136 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 15:47:21.136 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 15:47:21.136 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 15:47:21.136 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 15:47:21.137 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 15:47:21.137 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 15:47:21.137 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 15:47:21.145 [main] ERROR abergaz.com.Start - java.lang.NullPointerException
+	at java.io.File.<init>(File.java:277)
+	at abergaz.com.Transfer.SbrfToAbsAck(Transfer.java:62)
+	at abergaz.com.Transfer.process(Transfer.java:29)
+	at abergaz.com.Start.start(Start.java:22)
+	at Main.main(Main.java:9)
+
+01.10.2020 15:47:21.145 [main] INFO  abergaz.com.Start - End FileTransfer
+01.10.2020 15:54:15.049 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 15:54:15.053 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 15:54:15.060 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 15:54:15.062 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 15:54:15.063 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 15:54:15.064 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 15:54:15.064 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 15:54:15.064 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 15:54:15.065 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 15:54:15.065 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 15:54:15.065 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 15:54:15.065 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 15:55:02.219 [main] INFO  abergaz.com.Start - End FileTransfer
+01.10.2020 15:55:35.119 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 15:55:35.122 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 15:55:35.128 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 15:55:35.130 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 15:55:35.131 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 15:55:35.131 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 15:55:35.132 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 15:55:35.132 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 15:55:35.132 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 15:55:35.132 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 15:55:35.132 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 15:55:35.132 [main] INFO  abergaz.com.Start - Init settings end
+01.10.2020 15:55:35.136 [main] ERROR abergaz.com.Start - java.lang.NullPointerException
+	at java.io.File.<init>(File.java:277)
+	at abergaz.com.Transfer.SbrfToAbsAck(Transfer.java:62)
+	at abergaz.com.Transfer.process(Transfer.java:29)
+	at abergaz.com.Start.start(Start.java:21)
+	at Main.main(Main.java:9)
+
+01.10.2020 15:55:35.136 [main] INFO  abergaz.com.Start - End FileTransfer
+01.10.2020 15:56:15.348 [main] INFO  abergaz.com.Start - Start FileTransfer
+01.10.2020 15:56:15.353 [main] INFO  abergaz.com.Start - Init settings start
+01.10.2020 15:56:15.354 [main] INFO  abergaz.com.Settings - Настроечный файл:
+01.10.2020 15:56:15.357 [main] INFO  abergaz.com.Settings - C:\JavaWork\FiileTransfer\out\production\settings.properties
+01.10.2020 15:56:15.358 [main] INFO  abergaz.com.Settings - sbrf_in = C:\Finline\VEB1\sbrf_in
+01.10.2020 15:56:15.359 [main] INFO  abergaz.com.Settings - sbrf_in.arch = C:\Finline\VEB1\sbrf_in.arch
+01.10.2020 15:56:15.359 [main] INFO  abergaz.com.Settings - sbrf_out = C:\Finline\VEB1\sbrf_out
+01.10.2020 15:56:15.360 [main] INFO  abergaz.com.Settings - sbrf_out.arch = C:\Finline\VEB1\sbrf_out.arch
+01.10.2020 15:56:15.360 [main] INFO  abergaz.com.Settings - ABS.SBRF.CM.SWIFT.F = C:\Finline\ABS\ABS.SBRF.CM.SWIFT.F
+01.10.2020 15:56:15.360 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.F
+01.10.2020 15:56:15.360 [main] INFO  abergaz.com.Settings - SBRF.ABS.CM.SWFIT.ACK.F = C:\Finline\ABS\SBRF.ABS.CM.SWFIT.ACK.F
+01.10.2020 15:56:15.361 [main] INFO  abergaz.com.Start - Init settings end
