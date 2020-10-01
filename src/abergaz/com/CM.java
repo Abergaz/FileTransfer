@@ -1,5 +1,8 @@
 package abergaz.com;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -8,12 +11,10 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class CM {
-    private Settings settings;
     private static CM instance;
+    private static final Logger logger = LoggerFactory.getLogger(CM.class.getName());
 
-    private CM() {
-        settings = Settings.getInstance();
-    }
+    private CM() {}
 
     public static CM getInstance() {
         if (instance == null) {
@@ -34,9 +35,9 @@ public class CM {
      * переносим сообщения из sbrf_in в ABS.SBRF.CM.SWIFT.F
      */
     private void AbsToSbrf() {
-        File sbrfIn = new File(settings.getSbrfIn());
-        File sbrfInArch = new File(settings.getSbrfInArch());
-        File absSbrfCmSwiftF = new File(settings.getAbsSbrfCmSwiftF());
+        File sbrfIn = new File(Start.settings.getSbrfIn());
+        File sbrfInArch = new File(Start.settings.getSbrfInArch());
+        File absSbrfCmSwiftF = new File(Start.settings.getAbsSbrfCmSwiftF());
         fileTransfer(sbrfIn, sbrfInArch, absSbrfCmSwiftF);
     }
 
@@ -46,9 +47,9 @@ public class CM {
      * переносим сообщения из SBRF.ABS.CM.SWFIT.F в sbrf_out
      */
     private void SbrfToAbs() {
-        File sbrfAbsCmSwiftF = new File(settings.getSbrfAbsCmSwiftF());
-        File sbrfOutArch = new File(settings.getSbrfOutArch());
-        File sbrfOut = new File(settings.getSbrfOut());
+        File sbrfAbsCmSwiftF = new File(Start.settings.getSbrfAbsCmSwiftF());
+        File sbrfOutArch = new File(Start.settings.getSbrfOutArch());
+        File sbrfOut = new File(Start.settings.getSbrfOut());
         fileTransfer(sbrfAbsCmSwiftF, sbrfOutArch, sbrfOut);
     }
 
@@ -58,9 +59,9 @@ public class CM {
      * переносим сообщения из SBRF.ABS.CM.SWFIT.ACK.F в sbrf_out
      */
     private void SbrfToAbsAck() {
-        File sbrfAbsCmSwiftAckF = new File(settings.getSbrfAbsCmSwiftAckF());
-        File sbrfOutArch = new File(settings.getSbrfOutArch());
-        File sbrfOut = new File(settings.getSbrfOut());
+        File sbrfAbsCmSwiftAckF = new File(Start.settings.getSbrfAbsCmSwiftAckF());
+        File sbrfOutArch = new File(Start.settings.getSbrfOutArch());
+        File sbrfOut = new File(Start.settings.getSbrfOut());
         fileTransfer(sbrfAbsCmSwiftAckF, sbrfOutArch, sbrfOut);
     }
 
@@ -99,12 +100,12 @@ public class CM {
      */
     private void copyFile(File sourceFile, File to) {
         if (sourceFile.getName().endsWith(".txt")) {
-            System.out.println("Copy file : " + sourceFile.getPath() + " to : " + to.getPath());
+            logger.info("Copy file : " + sourceFile.getPath() + " to : " + to.getPath());
             try {
                 Files.copy(sourceFile.toPath(), to.toPath().resolve(sourceFile.getName()), StandardCopyOption.REPLACE_EXISTING);
             } catch (IOException e) {
-                System.out.println("Copy error file : " + sourceFile.getPath() + " to : " + to.getPath());
-                e.printStackTrace();
+                logger.error("Copy error file : " + sourceFile.getPath() + " to : " + to.getPath());
+                logger.error(e.getMessage());
             }
         }
 
@@ -115,12 +116,12 @@ public class CM {
      */
     private void moveFile(File sourceFile, File to) {
         if (sourceFile.getName().endsWith(".txt")) {
-            System.out.println("Move file : " + sourceFile.getPath() + " to : " + to.getPath());
+            logger.info("Move file : " + sourceFile.getPath() + " to : " + to.getPath());
             try {
                 Files.move(sourceFile.toPath(), to.toPath().resolve(sourceFile.getName()), StandardCopyOption.REPLACE_EXISTING);
             } catch (IOException e) {
-                System.out.println("Move error file : " + sourceFile.getPath() + " to : " + to.getPath());
-                e.printStackTrace();
+                logger.error("Move error file : " + sourceFile.getPath() + " to : " + to.getPath());
+                logger.error(e.getMessage());
             }
         }
     }

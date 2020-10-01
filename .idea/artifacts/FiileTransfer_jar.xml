@@ -1,8 +1,13 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="FiileTransfer:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/FiileTransfer_jar</output-path>
+  <artifact type="jar" build-on-make="true" name="FiileTransfer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FiileTransferjar</output-path>
     <root id="archive" name="FiileTransfer.jar">
       <element id="module-output" name="FiileTransfer" />
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="logback-classic-1.0.13" />
+        <element id="library" level="project" name="logback-core-1.0.13" />
+        <element id="library" level="project" name="slf4j-api-1.7.30" />
+      </element>
     </root>
   </artifact>
 </component>
