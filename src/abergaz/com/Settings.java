@@ -39,6 +39,7 @@ public class Settings {
             logger.info(new File(Settings.class.getProtectionDomain().getCodeSource().getLocation().getPath()).toPath().getParent().resolve(fileName).toString());
             curDir = new File(Settings.class.getProtectionDomain().getCodeSource().getLocation().getPath()).toPath().getParent().toFile();
             fileSettings = curDir.toPath().resolve(fileName).toFile();
+            //Получаем файл остановки.
             fileStop = curDir.toPath().resolve("stop").toFile();
 
             if (!fileSettings.exists()) {
