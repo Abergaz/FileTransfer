@@ -19,7 +19,7 @@
         <rollingPolicy
                 class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- daily rollover -->
-            <fileNamePattern>FileTransfer.%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
+            <fileNamePattern>FileTransfer.%d{yyyy-MM-dd}.log.zip</fileNamePattern>
             <!-- Храним файлы логов N дней -->
             <maxHistory>30</maxHistory>
         </rollingPolicy>

@@ -2,11 +2,7 @@ package abergaz.com;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.StandardCopyOption;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -71,12 +67,12 @@ public class Transfer {
                 for (File sourceFile : sourceFolder.listFiles()) {
                     if (copyFolder.exists()) {
                         if (copyFolder.isDirectory()) {
-                            copyFileToArc(sourceFile, copyFolder);
+                            copyFileToArcDate(sourceFile, copyFolder);
                         }
                     }
                     if (moveFolder.exists()) {
                         if (moveFolder.isDirectory()) {
-                            moveFile(sourceFile, moveFolder);
+                            FileUtil.moveFile(sourceFile, moveFolder);
                         }
                     }
                 }
@@ -87,44 +83,10 @@ public class Transfer {
     /**
      * Копирует файл в подакталог с текущей датой в указанный каталог
      */
-    private void copyFileToArc(File file, File to) {
-        File destinationFolder = new File(to.toPath().resolve(getCurDate()).toString());
-        if (!destinationFolder.exists()) {
-            destinationFolder.mkdir();
-        }
-        copyFile(file, destinationFolder);
+    private void copyFileToArcDate(File file, File toArchFolder) {
+        FileUtil.copyFile(file, FileUtil.createFolder(toArchFolder,getCurDate()));
     }
 
-    /**
-     * Копирует файл в указанный каталог
-     */
-    private void copyFile(File sourceFile, File to) {
-        if (sourceFile.getName().endsWith(".txt")) {
-            logger.info("Copy file : " + sourceFile.getPath() + " to : " + to.getPath());
-            try {
-                Files.copy(sourceFile.toPath(), to.toPath().resolve(sourceFile.getName()), StandardCopyOption.REPLACE_EXISTING);
-            } catch (IOException e) {
-                logger.error("Copy error file : " + sourceFile.getPath() + " to : " + to.getPath());
-                logger.error(ErrorUtil.getStackTrace(e));
-            }
-        }
-
-    }
-
-    /**
-     * Перемещает файл в указанный каталог
-     */
-    private void moveFile(File sourceFile, File to) {
-        if (sourceFile.getName().endsWith(".txt")) {
-            logger.info("Move file : " + sourceFile.getPath() + " to : " + to.getPath());
-            try {
-                Files.move(sourceFile.toPath(), to.toPath().resolve(sourceFile.getName()), StandardCopyOption.REPLACE_EXISTING);
-            } catch (IOException e) {
-                logger.error("Move error file : " + sourceFile.getPath() + " to : " + to.getPath());
-                logger.error(ErrorUtil.getStackTrace(e));
-            }
-        }
-    }
 
     /**
      * Возвразает строку с текщей дытой вида ггггммдд
